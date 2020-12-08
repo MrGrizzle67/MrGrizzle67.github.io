@@ -1,0 +1,83 @@
+
+#top {
+    display:flex;
+    width:100%;
+    background-color: rgb(230, 228, 228);
+    font-size:45px;
+    position: fixed;
+}
+#mainpage, #menu, #collab, #about, #contact {
+    padding-top:10px;
+    padding-left:170px;
+}
+#top {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+#logo {
+    width:150px;
+}
+a {
+    text-decoration: none;
+    color:black;
+    transition: 0.5s;
+}
+a:hover {
+    font-size: 60px;
+    transition:0.5s;
+}
+#content {
+    padding-top:200px;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    margin:0px;
+    background-image:url(tlo.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+.opis {
+    width:30%;
+    margin: auto;
+    text-align:center;
+}
+.logo2 {
+    margin:auto;
+    margin-bottom: 30px;
+    width:30%;
+    display:block;
+}
+.hr {
+    margin-top:100px;
+    margin-bottom:100px;
+    height: 70px;
+    background-color: rgb(230, 228, 228);
+    font-size:45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+}
+#footer {
+    margin-top:100px;
+    color: rgb(122, 122, 122);
+    font-size:15px;
+    background-color: rgb(230, 228, 228) ;
+    text-align: left;
+    vertical-align: text-bottom;
+    padding-top:40px;
+}
+p {
+    vertical-align: text-bottom;
+    margin: 0px;
+}
+.flex {
+    display:flex;
+
+    
+}
+.img {
+    border-radius: 200px;
+    height:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
